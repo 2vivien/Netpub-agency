@@ -1168,7 +1168,7 @@ Portfolio
 
 .our-portfolio .item .hover-effect {
   position: absolute;
-  background-image: url(../images/hover-bg.png);
+
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .5s;
@@ -1903,6 +1903,10 @@ footer .copyright p {
 footer .copyright p a {
   color: #ff695f;
 }
+.hidecontain{
+  display: none;
+}
+
 
 /* 
 ---------------------------------------------
@@ -1916,7 +1920,7 @@ responsive
     width: 640px;
     height: 526px;
   }
-
+  
 }
 
 @media (max-width: 992px) {
@@ -2021,5 +2025,11 @@ responsive
   }
   .contact-us .info span {
     margin-bottom: 20px;
+  }
+  .hidecontain{
+    display: none;
+  }
+  #video{
+    display: none;
   }
 }
